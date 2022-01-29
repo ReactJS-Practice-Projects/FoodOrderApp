@@ -10,8 +10,6 @@ const Cart = (props) => {
     </ul>
   );
 
-  //we execute the function from the parent component by calling its associated function  props.onClose
-  //props.onClose - will call hideCartHandler funtion which it points and set cartIsShown to false in the state
   return (
     <Modal onClose={props.onClose}>
       {cartItems}
