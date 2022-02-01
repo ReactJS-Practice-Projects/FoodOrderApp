@@ -2,7 +2,6 @@ import React from 'react';
 
 import classes from './Input.module.css';
 
-//we use the function forwardRef to assign the amount to amountInputRef in MealiItemForm component 
 const Input = React.forwardRef((props, ref) => {
   return (
     <div className={classes.input}>
